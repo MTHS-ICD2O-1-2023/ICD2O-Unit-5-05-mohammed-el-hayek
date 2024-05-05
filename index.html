@@ -1,9 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
   <head>
-    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="how to get the tringale" />
+    <meta name="keywords" content="mths, ics20" />
+    <meta name="auther" content="Mohammed" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.lime-light_blue.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <title>what is cind for the tringale</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">What cind of tringale do you have</span>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <table>
+          <tr>
+            <img src="./images/classification-of-triangles-1621331800.png" alt="Triangle" />
+            <th>
+              <h3>what cind of triangles do you have</h3>
+            </th>
+          </tr>
+        </table>
+        <h5>Please enter info! :</h5>
+        <!--Numeric Numberfield-->
+        <from action="#">
+          <p>Side A:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__iput"
+              type="number"
+              id="length-a"
+            />
+          </div>
+        </from>
+        <!--Numeric Numberfield-->
+        <from action="#">
+          <p>Side B:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__iput"
+              type="number"
+              id="length-b"
+            />
+          </div>
+        </from>
+        <!--Numeric Numberfield-->
+        <from action="#">
+          <p>Side C:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__iput"
+              type="number"
+              id="length-c"
+            />
+          </div>
+        </from>
+        <br />
+        <!--Raised button with ripple-->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="myButtonClicked()"
+        >
+          get tringale
+        </button>
+        <br />
+        <div id="answer">
+        </div>
+      </main>
+    </div>
   </body>
 </html>
